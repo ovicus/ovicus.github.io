@@ -1,0 +1,64 @@
+baseURL = "https://www.ovicus.com/"
+languageCode = "en-us"
+title = "Ovicus"
+theme = "hugo-coder"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+  author = "Lester Sanchez"
+  info = "Computer Science Passionate"
+  description = "Lester Sanchez's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/avatar.jpg"
+
+  hideFooter = true
+  hideCredits = false
+  hideCopyright = false
+
+  enableTwemoji = false
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 1
+  url = "https://www.linkedin.com/in/lestersanchez/"
+
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 2
+  url = "https://github.com/ovicus/"
+
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/LesterSanchez/"
+
+[[params.social]]
+  name = "Blog"
+  icon = "fa fa-rss fa-2x"
+  weight = 4
+  url = "https://dotnetting.net/"
+
+[[params.social]]
+  name = "Azure Developer Associate"
+  icon = "fa fa-cloud fa-2x"
+  weight = 4
+  url = "https://www.youracclaim.com/badges/45c20b29-a7f1-42e4-8bee-cca0c1bb2728/public_url"
