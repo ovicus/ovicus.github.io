@@ -10,6 +10,8 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+googleAnalytics = "G-9XJKT05RP1"
+
 [params]
   author = "Lester Sanchez"
   info = "Computer Science Passionate"
